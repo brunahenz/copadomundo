@@ -1,9 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+
+   padding: 0%;
+   margin: 0%;
+   font-family: 'Oswald', sans-serif;
+
+}
+header{
+   animation-name: nova_animacao;
+   animation-duration: 2s;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   
+}
+
+
+@keyframes nova_animacao {
+   50% {background-color: rgb(16, 17, 120);}
+   50% {background-color: rgb(19, 112, 44);}
+  
+}
+.rr{
+   background-color: darkred;
+}
 body{
-    background-color: black;
+    background-color: rgb(3, 3, 17);
 }
 h1{
-    color: #fc2c03;
+    color: #ffffff;
 }
 .cor1{
-    background-color: #fc2c03 ;
+    background-color: #fce803  ;
 }
+
+
