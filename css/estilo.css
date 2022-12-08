@@ -39,3 +39,21 @@ h1{
 .rd{
     color: brown;
 }
+.rf{
+    background-color: rgb(3, 3, 17) ;
+    color: brown;
+}
+
+#Notícias {
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+}
+
+#noticia_esquerda{
+    margin: 0 10px auto 20px;
+}
+
+#noticia_direita{
+    margin-right: 20px;
+}
