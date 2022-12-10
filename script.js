@@ -5,8 +5,15 @@ function pesquisar(){
 
 
     if (resultadoDePesquisa == "JOGOS") {
-        window.location.href = "file:///home/aluno/Imagens/copadomundo/html/jogos.html";
-    }else if (resultadoDePesquisa == "CLASSIFICAÇÃO") {
-        window.location.href = "file:///home/aluno/Imagens/copadomundo/html/classificacao.html";
+        window.location.href = "file:///C:/Users/User/OneDrive/Imagens/copadomundo/html/jogos.html";
+    }
+    else if (resultadoDePesquisa == "CLASSIFICAÇÃO") {
+        window.location.href = "file:///C:/Users/User/OneDrive/Imagens/copadomundo/html/classificacao.html";
+    }
+    else if (resultadoDePesquisa == "GOLS"){
+        window.location.href = "file:///C:/Users/User/OneDrive/Imagens/copadomundo/html/gols.html";
+    }
+    else if (resultadoDePesquisa == "NOTÍCIAS"){
+        window.location.href = "file:///C:/Users/User/OneDrive/Imagens/copadomundo/html/ultima.html";
     }
 }
